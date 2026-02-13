@@ -5,7 +5,7 @@ import path from "path";
 import Product from "../model/productModel.js";
 
 dotenv.config();
-const GEMINI_API_KEY = 'AIzaSyBXI-s8XSwlkKZrqtGz06p-y20AlDTbQ9A';
+const GEMINI_API_KEY = '';
 
 export const validateAndPostProduct = async (req, res) => {
   try {
